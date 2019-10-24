@@ -69,6 +69,7 @@ public class DeployTests {
 
 	@BeforeEach
 	public void setup() throws Exception {
+		System.out.println("这个世界？？");
 		mvc = MockMvcBuilders.webAppContextSetup(context).build();
 	}
 }

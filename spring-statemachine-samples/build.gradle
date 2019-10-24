@@ -4,6 +4,7 @@ project('spring-statemachine-samples-turnstile') {
 	description = 'Spring State Machine Turnstile Sample'
 	dependencies {
 		compile project(':spring-statemachine-samples-common')
+		compile "com.alibaba:fastjson:1.2.62"
 		testCompile project(path:':spring-statemachine-core', configuration:'testArtifacts')
 		testCompile 'io.projectreactor:reactor-test'
 	}

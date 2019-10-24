@@ -57,6 +57,11 @@ public class TurnstileTests {
 	@Test
 	public void testNotStarted() throws Exception {
 		assertThat(commands.state(), is("No state"));
+		List<Integer> list = new ArrayList<>();
+		list.add(1);
+		list.add(2);
+//		list.stream().map().sum
+
 	}
 
 	@Test
